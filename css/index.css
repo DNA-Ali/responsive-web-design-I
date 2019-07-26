@@ -661,44 +661,40 @@ footer {
 
 @media (max-width: 500px) {
 	.container {
-		margin-top: 10px;
-		border: 0px;
-		height: 800px;
-		width: 500px;
+		width: 100%;
+		border: none;
+
 	}
 
 		header {
-      display:flex;
-			/* flex-direction: column-reverse; */
-			margin-bottom: 10px;
-			padding: 5px;
-			justify-content: center;
-			/* border:1px solid red; */
+			width: 327px;
+			display: flex;
+			align-content: center;
+			margin-left: -70px;
+
     }
+
+		header nav {
+			display: flex;
+			flex-direction: column;
+		}
 
 		header .logo {
 			display: flex;
 			justify-content: center;
-			height:35px;
-			margin-top: 150px;
-			margin-left: 400px;
+			margin-left: -200px;
+			border: 1px black;
 
 		}
 
 		header nav a {
 			display: flex;
-
-			margin:auto;
-			width: 400px;
-			height: 30%;
-			margin-top: 2%;
-			margin-left: 400px;
-			/* border:1px solid red; */
+			flex-direction: column-reverse;
 			justify-content: center;
-			align-content: space-evenly;
 			align-items: center;
-			margin-bottom: 10px;
-			vertical-align: center;
+			align-content: center;
+			border-top: 1px solid gray;
+			width: 200px;
 
 		}
 		.cta-image {
@@ -708,14 +704,15 @@ footer {
 		.cta-text {
 			justify-content: center;
 			margin:auto;
-			margin-top: 32%;
+			margin-left: 5%;
+			margin-top: 200px;
 		}
 
 		hr {
-			width: 500px;
-			border: 2px solid black;
-			margin: auto;
-			margin-left: 200px;
+			width: 360px;
+			border: 1px solid black;
+			margin-left: 25px;
+			margin-top: 200px;
 		}
 
 		.main-content {
@@ -725,57 +722,66 @@ footer {
 		.text-content1 {
 			flex-direction: row;
 			flex-flow: wrap;
-			width: 480px;
+			width: 350px;
 			margin: auto;
-			margin-left: 200px;
+			margin-left: 3.5%;
 			height: 100px;
-			margin-bottom: 10px;
+			margin-bottom: 40px;
 			margin-top: 10px;
 		}
 
 		.text-content2 {
 			flex-direction: row;
 			flex-flow: wrap;
-			width: 480px;
+			width: 350px;
 			margin: auto;
-			margin-left: 200px;
+			margin-left: 3.5%;
 			height: 100px;
-			margin-bottom: 10px;
+			margin-bottom: 30px;
 		}
 		.middle-img {
-			width: 500px;
+			width: 380px;
 			margin-top: 20px;
 			justify-content: center;
-			margin-left: 200px;
+			margin-left: 2.5%;
 		}
 
 		.text-content3 {
 			flex-direction: row;
 			flex-flow: wrap;
-			width: 480px;
+			width: 380px;
 			margin: auto;
-			margin-left: 200px;
+			margin-left: 3.5%;
 			height: 100px;
-			margin-bottom: 10px;
-			margin-top: 20px;
+			margin-bottom: 40px;
+			margin-top: 30px;
 		}
 		.text-content4 {
 			flex-direction: row;
 			flex-flow: wrap;
-			width: 480px;
+			width: 380px;
 			margin: auto;
-			margin-left: 200px;
+			margin-left: 3.5%;
 			height: 100px;
-			margin-bottom: 10px;
+			margin-bottom: 40px;
 		}
 		.text-content5 {
 			flex-direction: row;
 			flex-flow: wrap;
-			width: 480px;
+			width: 380px;
 			margin: auto;
-			margin-left: 200px;
+			margin-left: 3.5%;
 			height: 100px;
-			margin-bottom: 20px;
+			margin-bottom: 0px;
+		}
+
+		.main-content {
+			height: 300px;
+		}
+
+		.bottom-line {
+			margin-top: 40px;
+
 		}
 
 		.contact {
@@ -783,21 +789,22 @@ footer {
 			padding: 1px 2%;
 			justify-content: center;
 			margin-top: 20px;
-			margin-left: 180px;
+			margin-left: 10px;
 			/* border: 1px solid red; */
 			width: 40%;
 		}
 
-		.line {
-			border-top: 1px solid gray;
-			height: 15%;
+		footer {
+			display: flex;
+			justify-content: center;
+			margin-left: -200px;
 		}
 
-		.linelast {
-			border-top: 1px solid gray;
+		.linebottomnav {
 			border-bottom: 1px solid gray;
-			height: 20%;
-			margin-bottom: 25px;
 		}
+
+
+
 
 }
